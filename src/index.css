@@ -19,6 +19,7 @@ code {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  user-select: none;
 }
 
 .box{
@@ -29,6 +30,7 @@ code {
   display: flex;
   align-items: center;
   justify-content: center;
+  user-select: none;
 
 }
 
@@ -44,6 +46,7 @@ code {
 th, tr, td, table{
   padding: 0;
   margin: 0;
+  user-select: none;
 }
 
 .red{
